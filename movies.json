@@ -1,0 +1,704 @@
+[
+    {
+        "id": 1,
+        "title": "El club de la pelea",
+        "year": 1999,
+        "genre": ["Drama", "Thriller"],
+        "synopsis": "Un oficinista insatisfecho con su vida conoce a Tyler Durden, con quien funda un club clandestino donde los hombres enfrentan su frustración a través de violentos combates. Lo que comienza como una vía de escape se transforma en un movimiento subversivo que desafía el orden establecido.",
+        "duration": 139,
+        "poster": "/public/img/movies/8f2e6d4a387dd4806d87c4b4fc64b521.jpg",
+        "subjectArea": [
+            "Filosofía"
+        ],
+        "areaThemes" : ["Nihilismo", "Existencialismo", "Ética de la virtud"]
+    },
+    {
+        "id": 2,
+        "title": "Matrix",
+        "year": 1999,
+        "genre": ["Ciencia-ficción", "Acción"],
+        "synopsis": "Un programador de computadoras descubre que la realidad que percibe es en realidad una simulación generada por máquinas para controlar a la humanidad. Al unirse a un grupo de rebeldes, lucha por liberar a las personas y enfrentar a las máquinas en un combate por la verdad y la libertad.",
+        "duration": 131,
+        "poster": "/public/img/movies/Matrix1.jpg",
+        "subjectArea": [
+            "Filosofía"
+        ],
+        "areaThemes": [
+            "Realidad simulada",
+            "Determinismo",
+            "Libertad",
+            "Ética"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Interstellar",
+        "year": 2014,
+        "genre": ["Ciencia-ficción", "Aventura"],
+        "synopsis": "En un futuro donde la Tierra enfrenta un colapso ecológico, un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad. La película explora conceptos de relatividad, gravitación y el sacrificio humano en nombre de la supervivencia.",
+        "duration": 169,
+        "poster": "/public/img/movies/8d8f28105415493.619ded067937d.jpg",
+        "subjectArea": [
+            "Fisicoquímica"
+        ],
+        "areaThemes": [
+            "Relatividad",
+            "Gravitación",
+            "Viaje en el espacio-tiempo",
+            "Sacrificio humano",
+            "Colapso ecológico"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "El experimento",
+        "year": 2001,
+        "genre": ["Thriller", "Drama"],
+        "synopsis": "Inspirada en el experimento de la prisión de Stanford, un grupo de voluntarios participa en un estudio psicológico que se descontrola cuando los roles asignados de guardias y prisioneros comienzan a afectar su comportamiento. Una reflexión sobre el poder, la obediencia y la moralidad.",
+        "duration": 120,
+        "poster": "/public/img/movies/El_experimento-117524601-large.jpg",
+        "subjectArea": [
+            "Psicología"
+        ],
+        "areaThemes": [
+            "Poder",
+            "Obediencia",
+            "Moralidad",
+            "Comportamiento humano",
+            "Deshumanización"
+        ]
+    },    
+    {
+        "id": 5,
+        "title": "Contacto",
+        "year": 1997,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "Una astrónoma recibe una señal extraterrestre que podría ser el primer contacto con una civilización alienígena. Mientras lucha contra el escepticismo científico y político, emprende un viaje que desafía sus creencias sobre la ciencia, la religión y el lugar de la humanidad en el universo.",
+        "duration": 150,
+        "poster": "/public/img/movies/MV5BM2JiYmE1Y2UtNDQ3YS00YTZhLTk5MzAtYzEzMzIyNTM4OTRlXkEyXkFqcGc@._V1_.jpg",
+        "subjectArea": [
+            "Fisicoquímica",
+            "Filosofía"
+        ],
+        "areaThemes": [
+            "Vida extraterrestre",
+            "Exploración espacial",
+            "Religión vs ciencia",
+            "Existencialismo",
+            "Conexión humana"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Gattaca",
+        "year": 1997,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "En un futuro donde la genética define las oportunidades, un hombre considerado 'imperfecto' desafía el sistema para cumplir su sueño de viajar al espacio. La película aborda temas de bioética, discriminación y el poder de la determinación personal.",
+        "duration": 106,
+        "poster": "/public/img/movies/bb949e6a6973fd60dba3c9d844a5f242.jpg",
+        "subjectArea": [
+            "Biología",
+            "Filosofía"
+        ],
+        "areaThemes": [
+            "Determinismo genético",
+            "Bioética",
+            "Superación personal",
+            "Sociedad y control genético"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Chernobyl: Abyss",
+        "year": 2021,
+        "genre": ["Drama", "Historia"],
+        "synopsis": "La tragedia de Chernóbil es contada a través de los valientes esfuerzos de los hombres que arriesgaron sus vidas para contener el desastre nuclear. Mientras enfrentan la devastadora radiación, la película profundiza en la ciencia detrás del accidente, la responsabilidad de los líderes, el sacrificio personal y las consecuencias medioambientales que marcaron para siempre la región.",
+        "duration": 136,
+        "poster": "/public/img/movies/MV5BMjAzMjYwZGEtMGM1MC00OTFhLThlZDItMjhlMjQzNTJhMzBjXkEyXkFqcGc@._V1_.jpg",
+        "subjectArea": [
+            "Fisicoquímica",
+            "Historia"
+        ],
+        "areaThemes": [
+            "Desastre nuclear",
+            "Responsabilidad humana",
+            "Crisis medioambiental"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "El club de los poetas muertos",
+        "year": 1989,
+        "genre": ["Drama"],
+        "synopsis": "Un profesor de literatura en una rígida escuela secundaria inspira a sus alumnos a cuestionar las normas establecidas y a seguir sus pasiones por medio de la poesía. A través de su enseñanza, los estudiantes encuentran una nueva forma de ver el mundo y enfrentar los desafíos personales.",
+        "duration": 128,
+        "poster": "/public/img/movies/4SVRQ09gsl2dea3FzLHRcoOZQEl.jpg",
+        "subjectArea": [
+            "Lengua",
+            "Filosofía"
+        ],
+        "areaThemes": [
+            "Creatividad",
+            "Educación",
+            "Arte como forma de libertad",
+            "Individualismo",
+            "Desafío a las normas sociales"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "El origen",
+        "year": 2010,
+        "genre": ["Ciencia-ficción", "Acción"],
+        "synopsis": "Un ladrón especializado en robar secretos del subconsciente es contratado para llevar a cabo la tarea más compleja de su carrera: implantar una idea en la mente de un objetivo a través de un sueño compartido, desdibujando las fronteras entre la realidad y la ilusión.",
+        "duration": 148,
+        "poster": "/public/img/movies/5d55ca78955e3e859743326893d6d9eb.jpg",
+        "subjectArea": ["Filosofía", "Psicología"],
+        "areaThemes": [
+            "Subconsciente",
+            "Sueños",
+            "Manipulación mental",
+            "Ética de la percepción",
+            "Realidad vs ilusión"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "La teoría del todo",
+        "year": 2014,
+        "genre": ["Biografía", "Drama"],
+        "synopsis": "Basada en la vida del renombrado físico Stephen Hawking, la película narra su enfrentamiento con la esclerosis lateral amiotrófica, mientras desafía las limitaciones de su cuerpo para hacer descubrimientos fundamentales sobre el universo. A través de su lucha personal, también explora sus relaciones y su incansable deseo de entender los secretos del cosmos.",
+        "duration": 123,
+        "poster": "/public/img/movies/208307.jpg",
+        "subjectArea": ["Fisicoquímica"],
+        "areaThemes": [
+            "Teoría de la relatividad",
+            "Lucha contra la adversidad",
+            "Descubrimientos científicos",
+            "Física teórica"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "El hombre bicentenario",
+        "year": 1999,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "Un robot diseñado para servir a los humanos busca comprender el concepto de humanidad mientras vive durante 200 años. A lo largo de su vida, establece relaciones emocionales profundas con los seres humanos, cuestionando su identidad y el significado de ser humano.",
+        "duration": 132,
+        "poster": "/public/img/movies/6rRhnTbOSqBzoIlNYXHIdUliHuQ.jpg",
+        "subjectArea": ["Filosofía", "Tecnología"],
+        "areaThemes": [
+            "Humanidad",
+            "Identidad",
+            "Relaciones emocionales",
+            "Inteligencia artificial",
+            "Tecnología y ética"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "El último samurái",
+        "year": 2003,
+        "genre": ["Acción", "Historia"],
+        "synopsis": "Un veterano de guerra estadounidense es capturado por un grupo de samuráis en Japón y, con el tiempo, se une a su causa. A medida que se enfrenta a un conflicto entre la tradición ancestral y las fuerzas de la modernización, lucha por encontrar su lugar en un mundo en transformación.",
+        "duration": 154,
+        "poster": "/public/img/movies/b723b30ec2d9d4e43e1c350799a4a45c.jpg",
+        "subjectArea": ["Historia", "Filosofía"],
+        "areaThemes": [
+            "Tradición vs modernización",
+            "Honor y deber",
+            "Cultura japonesa",
+            "Cambio social",
+            "Guerreros samuráis"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "El círculo",
+        "year": 2017,
+        "genre": ["Thriller", "Ciencia-ficción"],
+        "synopsis": "Una joven comienza a trabajar en una empresa tecnológica revolucionaria, pero pronto se ve atrapada en un sistema que pone a prueba sus principios éticos sobre la privacidad, la vigilancia y el control social, mientras se enfrenta al dilema entre el individualismo y el bien común.",
+        "duration": 110,
+        "poster": "/public/img/movies/El_Circulo_Poster_B.jpg",
+        "subjectArea": ["Tecnología", "Filosofía"],
+        "areaThemes": [
+            "Privacidad",
+            "Vigilancia",
+            "Ética tecnológica",
+            "Control social",
+            "Individualismo vs colectivo"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "En busca del destino",
+        "year": 1998,
+        "genre": ["Drama"],
+        "synopsis": "Un joven prodigio en matemáticas enfrenta sus demonios internos y el peso de un pasado traumático, mientras intenta encontrar su propósito en la vida con la ayuda de un terapeuta que lo guía en su viaje de autodescubrimiento y superación.",
+        "duration": 126,
+        "poster": "/public/img/movies/240507_153595324706873_4585326_o.jpg",
+        "subjectArea": ["Matemáticas", "Psicología"],
+        "areaThemes": [
+            "Talento y potencial humano",
+            "Superación personal",
+            "Relación terapeuta-paciente",
+            "Matemáticas y lógica"
+        ]
+    }, 
+    {
+        "id": 15,
+        "title": "Tenet",
+        "year": 2020,
+        "genre": ["Ciencia-ficción", "Acción"],
+        "synopsis": "Un agente secreto debe manipular el flujo del tiempo para evitar una catástrofe global. En su misión, se enfrenta a conceptos complejos como el tiempo inverso, las paradojas temporales y la lucha entre determinismo y libre albedrío, mientras navega por una realidad cada vez más confusa y distorsionada.",
+        "duration": 150,
+        "poster": "/public/img/movies/tenet-1593638684.jpg",
+        "subjectArea": ["Fisicoquímica", "Filosofía"],
+        "areaThemes": [
+            "Tiempo inverso",
+            "Paradojas temporales",
+            "Determinismo vs libre albedrío",
+            "Causalidad",
+            "Realidad y percepción"
+        ]
+    },    
+    {
+        "id": 16,
+        "title": "Dune",
+        "year": 2021,
+        "genre": ["Ciencia-ficción", "Aventura"],
+        "synopsis": "En un futuro lejano, un joven noble debe enfrentarse a intrigas políticas y luchas por el control de Arrakis, un planeta esencial para la supervivencia del universo. Mientras se adentra en su destino, explora los límites del poder, la ética del liderazgo y el conflicto entre la religión, el misticismo y la ecología.",
+        "duration": 155,
+        "poster": "/public/img/movies/dune-insta-vert-main-dom-1638x2048-1628522913715.jpg",
+        "subjectArea": ["Filosofía"],
+        "areaThemes": [
+            "Poder y política",
+            "Ética del liderazgo",
+            "Ecología y supervivencia",
+            "Destino y libre albedrío",
+            "Religión y misticismo"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "La red social",
+        "year": 2010,
+        "genre": ["Biografía", "Drama"],
+        "synopsis": "La película narra cómo Mark Zuckerberg, junto a sus compañeros, fundó Facebook y cómo las disputas legales y las relaciones personales fueron evolucionando a medida que la red social crecía. Explora los efectos de la ambición, las decisiones éticas en el ámbito tecnológico y el impacto de las redes sociales en la sociedad moderna.",
+        "duration": 120,
+        "poster": "/public/img/movies/La_Red_Social-435700880-large.jpg",
+        "subjectArea": ["Tecnología", "Psicología"],
+        "areaThemes": [
+            "Ambición y éxito",
+            "Ética tecnológica",
+            "Impacto de las redes sociales"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Blade Runner 2049",
+        "year": 2017,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "En un futuro distópico, un nuevo blade runner descubre un secreto que podría desatar el caos. Mientras investiga, se enfrenta a profundas preguntas sobre la humanidad, la conciencia y la inteligencia artificial, mientras lucha por entender su propia identidad y existencia en un mundo controlado por la tecnología.",
+        "duration": 164,
+        "poster": "/public/img/movies/fea2a257817617.59e51b1f15d9c.jpg",
+        "subjectArea": ["Filosofía", "Tecnología"],
+        "areaThemes": [
+            "Inteligencia artificial",
+            "Humanidad y conciencia",
+            "Ética en la tecnología",
+            "Identidad y existencia",
+            "Distopía y control social"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "La llegada",
+        "year": 2016,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "Una lingüista es reclutada para descifrar un lenguaje alienígena que podría cambiar el destino del mundo. Mientras trabaja en la comunicación, se enfrenta a la percepción no lineal del tiempo, poniendo a prueba su comprensión del destino y la libre voluntad.",
+        "duration": 116,
+        "poster": "/public/img/movies/poster-de-la-llegada-y-nuevas-imagenes-de-la-pelicula-denis-villeneuve-original.jpg",
+        "subjectArea": ["Filosofía", "Lengua"],
+        "areaThemes": [
+            "Comunicación intercultural",
+            "Percepción del tiempo",
+            "Determinismo vs libre albedrío",
+            "El poder del lenguaje"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Her",
+        "year": 2013,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "En un futuro cercano, un hombre desarrolla una relación emocional con un sistema operativo avanzado diseñado para satisfacer sus necesidades. A través de esta conexión, reflexiona sobre la naturaleza del amor, la identidad y las relaciones humanas en una sociedad cada vez más digitalizada.",
+        "duration": 126,
+        "poster": "/public/img/movies/her-p839477.jpg",
+        "subjectArea": ["Filosofía", "Tecnología"],
+        "areaThemes": [
+            "Amor digital",
+            "Inteligencia artificial",
+            "Ética tecnológica",
+            "Soledad y conexión emocional"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Ex Machina",
+        "year": 2014,
+        "genre": ["Ciencia-ficción", "Thriller"],
+        "synopsis": "Un joven programador es seleccionado para evaluar la inteligencia de un robot avanzado con apariencia humana. A medida que la interacción se desarrolla, descubre que está atrapado en una intrincada trama de manipulación psicológica y engaños, cuestionando los límites de la conciencia y la ética de la inteligencia artificial.",
+        "duration": 108,
+        "poster": "/public/img/movies/ex-machina.jpg",
+        "subjectArea": ["Tecnología", "Filosofía"],
+        "areaThemes": [
+            "Conciencia artificial",
+            "Ética de la IA",
+            "Manipulación psicológica",
+            "Humanidad vs tecnología",
+            "Libre albedrío y control"
+        ]
+    },    
+    {
+        "id": 22,
+        "title": "The Matrix Resurrections",
+        "year": 2021,
+        "genre": ["Ciencia-ficción", "Acción"],
+        "synopsis": "Neo regresa al mundo de Matrix, aún luchando por comprender su realidad, mientras enfrenta nuevas amenazas y descubre secretos sobre su existencia que pondrán en juego no solo su vida, sino también el destino de la humanidad en un mundo donde las fronteras entre la ilusión y la verdad se difuminan.",
+        "duration": 148,
+        "poster": "/public/img/movies/MV5BMDMyNDIzYzMtZTMyMy00NjUyLWI3Y2MtYzYzOGE1NzQ1MTBiXkEyXkFqcGc@._V1_.jpg",
+        "subjectArea": ["Filosofía", "Tecnología"],
+        "areaThemes": [
+            "Realidad vs ilusión",
+            "Existencialismo",
+            "Control y libertad",
+            "Conciencia",
+            "Impacto tecnológico"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Aniquilación",
+        "year": 2018,
+        "genre": ["Ciencia-ficción", "Terror"],
+        "synopsis": "Un grupo de científicas es reclutado para explorar 'El Área X', una zona enigmática donde la naturaleza se ha transformado de formas incomprensibles. A medida que se adentran en este territorio, enfrentan una serie de fenómenos extraños que desafían su comprensión de la realidad, poniendo a prueba su cordura y la identidad de cada una.",
+        "duration": 115,
+        "poster": "/public/img/movies/Aniquilaciaon-879235565-large.jpg",
+        "subjectArea": ["Biología", "Filosofía"],
+        "areaThemes": [
+            "Evolución y cambio",
+            "La naturaleza del conocimiento",
+            "Identidad y transformación",
+            "Existencialismo"
+        ]
+    },  
+    {
+        "id": 24,
+        "title": "El código enigma",
+        "year": 2014,
+        "genre": ["Biografía", "Drama"],
+        "synopsis": "Basada en la vida de Alan Turing, un brillante matemático británico que, durante la Segunda Guerra Mundial, lideró un equipo en el desciframiento de los códigos nazis, lo que resultó en una victoria decisiva para los aliados. A pesar de su genio, Turing enfrentó una vida llena de desafíos personales y discriminación debido a su orientación sexual, lo que añade una capa trágica a su legado, el cual fue clave para el desarrollo de la informática moderna.",
+        "duration": 113,
+        "poster": "/public/img/movies/d1d0c2f6d9c0e4ec569f7a289e7a7f9a.jpg",
+        "subjectArea": ["Matemáticas", "Historia"],
+        "areaThemes": [
+            "Criptografía",
+            "Desarrollo de la informática",
+            "Aceptación social y discriminación",
+            "Pensamiento lógico y matemático"
+        ]
+    }, 
+    {
+        "id": 25,
+        "title": "El marciano",
+        "year": 2015,
+        "genre": ["Ciencia-ficción", "Aventura"],
+        "synopsis": "Después de un accidente en Marte, un astronauta queda varado en el planeta rojo. Usando su ingenio, habilidades científicas y recursos limitados, lucha por sobrevivir mientras espera ser rescatado, enfrentando los desafíos de un entorno hostil e inhóspito.",
+        "duration": 144,
+        "poster": "/public/img/movies/poster-final-de-marte-the-martian-con-matt-damon-original.jpg",
+        "subjectArea": ["Fisicoquímica", "Biología"],
+        "areaThemes": [
+            "Supervivencia extrema",
+            "Adaptación al entorno",
+            "Ciencia aplicada",
+            "Tecnología"
+        ]
+    },  
+    {
+        "id": 26,
+        "title": "Blade Runner",
+        "year": 1982,
+        "genre": ["Ciencia-ficción", "Thriller"],
+        "synopsis": "En un futuro distópico, un cazador de replicantes es enviado a eliminar a unos androides fugitivos. A medida que profundiza en su misión, comienza a cuestionar su propia humanidad, la moralidad de su tarea y las implicaciones de la inteligencia artificial en la sociedad, mientras enfrenta preguntas filosóficas sobre la identidad y el libre albedrío.",
+        "duration": 117,
+        "poster": "/public/img/movies/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "subjectArea": ["Filosofía", "Tecnología"],
+        "areaThemes": [
+            "IA y humanidad",
+            "Ética en la creación de IA",
+            "Realidad y conciencia tecnológica",
+            "Impacto social de la tecnología",
+            "Identidad y libre albedrío"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Gravity",
+        "year": 2013,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "os astronautas, atrapados en el espacio después de un devastador accidente, luchan por sobrevivir a la soledad y las condiciones extremas del cosmos. Mientras se enfrentan a la desesperación y los desafíos técnicos, la conexión entre ellos se convierte en su única esperanza para regresar a casa.",
+        "duration": 91,
+        "poster": "/public/img/movies/Gravity-595126003-large.jpg",
+        "subjectArea": ["Fisicoquímica"],
+        "areaThemes": [
+            "Supervivencia en el espacio",
+            "Gravedad y física espacial",
+            "Aislamiento psicológico"
+        ]
+    }, 
+    {
+        "id": 28,
+        "title": "Apollo 13",
+        "year": 1995,
+        "genre": ["Drama", "Historia"],
+        "synopsis": "Basada en hechos reales, la película relata la misión del Apolo 13, en la que un fallo catastrófico deja a la tripulación varada en el espacio. A medida que luchan por sobrevivir y regresar a la Tierra, enfrentan desafíos técnicos y emocionales extremos, poniendo a prueba su ingenio y el trabajo en equipo en condiciones límite.",
+        "duration": 140,
+        "poster": "/public/img/movies/Apollo13_1995_original_film_art_51eb9240-607f-433d-944d-7bc38bc6550a_5000x.jpg",
+        "subjectArea": ["Historia", "Fisicoquímica"],
+        "areaThemes": [
+            "Misiones espaciales",
+            "Supervivencia en el espacio",
+            "Historia de la NASA",
+            "Fallo técnico",
+            "Trabajo en equipo"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Talentos ocultos",
+        "year": 2016,
+        "genre": ["Biografía", "Drama"],
+        "synopsis": "La historia de tres mujeres afroamericanas que trabajaron como matemáticas para la NASA, superando desafíos de discriminación racial y de género. Con sus habilidades, desempeñaron un papel crucial en el éxito del programa espacial durante la Guerra Fría, contribuyendo a misiones históricas como el primer vuelo orbital de un estadounidense.",
+        "duration": 127,
+        "poster": "/public/img/movies/vTCLPuqNhw0cmftToCUdgqMfPq2.jpg",
+        "subjectArea": ["Historia", "Matemáticas"],
+        "areaThemes": [
+            "Matemáticas en la NASA",
+            "Carrera espacial",
+            "Trabajo en equipo"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Lucy",
+        "year": 2014,
+        "genre": ["Ciencia-ficción", "Acción"],
+        "synopsis": "Después de ser expuesta a una droga experimental, una mujer adquiere habilidades cognitivas sobrehumanas. A medida que su cerebro se desarrolla a un ritmo increíble, comienza a explorar los límites de la mente humana y las consecuencias de manipular el potencial del cerebro.",
+        "duration": 98,
+        "poster": "/public/img/movies/b889ec8b9351a3f5aff70acb9106f5a0.jpg",
+        "subjectArea": ["Biología", "Filosofía"],
+        "areaThemes": [
+            "Capacidades cerebrales",
+            "Ética en la manipulación genética",
+            "Potencial humano",
+            "Filosofía de la mente"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Sentencia previa",
+        "year": 2002,
+        "genre": ["Ciencia-ficción", "Acción"],
+        "synopsis": "En un futuro donde la tecnología puede predecir los crímenes antes de que ocurran, un oficial de policía se ve acusado de un asesinato que aún no ha cometido. Mientras huye para demostrar su inocencia, se enfrenta a un sistema de justicia que pone en duda el concepto de libre albedrío y la moralidad de intervenir antes de que se cometan delitos.",
+        "duration": 145,
+        "poster": "/public/img/movies/4cf34dd8e84945b170559594587b46a095c589b7902f558f931d699c7cac316c.jpg",
+        "subjectArea": ["Filosofía", "Tecnología"],
+        "areaThemes": [
+            "Determinismo vs libre albedrío",
+            "Justicia y predicción",
+            "Ética de la vigilancia tecnológica",
+            "Control social y privacidad"
+        ]
+    },    
+    {
+        "id": 32,
+        "title": "Snowpiercer",
+        "year": 2013,
+        "genre": ["Ciencia-ficción", "Drama"],
+        "synopsis": "En un futuro post-apocalíptico, los últimos sobrevivientes de la humanidad habitan en un tren en constante movimiento. La lucha de clases entre los vagones, donde los más pobres viven en condiciones extremas, define el destino de la sociedad. Mientras los oprimidos buscan una revolución, se enfrentan a las tensiones sobre el control y la supervivencia en un mundo congelado.",
+        "duration": 126,
+        "poster": "/public/img/movies/MV5BMTQ3NzA1MTY3MV5BMl5BanBnXkFtZTgwNzE2Mzg5MTE@._V1_.jpg",
+        "subjectArea": ["Filosofía"],
+        "areaThemes": [
+            "Lucha de clases",
+            "Desigualdad social",
+            "Control social",
+            "Revolución y justicia"
+        ]
+    },    
+    {
+        "id": 33,
+        "title": "El hombre que conocía el infinito",
+        "year": 2015,
+        "genre": ["Biografía", "Drama"],
+        "synopsis": "Basada en la vida de Srinivasa Ramanujan, un matemático autodidacta que desafió las expectativas de su tiempo al trasladarse a Inglaterra para colaborar con G.H. Hardy. A pesar de enfrentar prejuicios culturales y académicos, Ramanujan realiza importantes contribuciones a las matemáticas, dejando un legado perdurable en el campo.",
+        "duration": 108,
+        "poster": "/public/img/movies/El_hombre_que_conocaia_el_infinito-798916512-large.jpg",
+        "subjectArea": ["Matemáticas", "Historia"],
+        "areaThemes": [
+            "Teoría matemática",
+            "Superación personal",
+            "Desafíos culturales",
+            "Legado científico"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Oppenheimer",
+        "year": 2023,
+        "genre": ["Drama", "Biografía", "Historia"],
+        "synopsis": "La película narra la historia de J. Robert Oppenheimer, el físico teórico estadounidense que dirigió el Proyecto Manhattan y desarrolló la primera bomba atómica. A través de su vida, se exploran los dilemas éticos y las consecuencias de sus descubrimientos, así como las presiones que enfrentó durante uno de los periodos más cruciales del siglo XX.",
+        "duration": 180,
+        "poster": "/public/img/movies/s-l1200.jpg",
+        "subjectArea": ["Historia", "Fisicoquímica", "Filosofía"],
+        "areaThemes": ["Guerra fría", "Ética", "Poder"]
+    },
+    {
+        "id": 35,
+        "title": "El gran Gatsby",
+        "year": 2013,
+        "genre": ["Drama", "Romance"],
+        "synopsis": "Jay Gatsby, un misterioso millonario conocido por sus extravagantes fiestas, busca desesperadamente recuperar el amor perdido de Daisy Buchanan. A través de los ojos de Nick Carraway, un joven aspirante a escritor, se desvela una historia de ambición, pasión y tragedia en el lujoso pero vacío mundo de los años 20.",
+        "duration": 143,
+        "poster": "/public/img/movies/16322e7cd85786e484bb27e8bd5643aa.jpg",
+        "subjectArea": ["Lengua"],
+        "areaThemes": ["Sueño americano", "Desigualdad social", "Amor idealizado", "Decadencia"]
+    },
+    {
+        "id": 36,
+        "title": "El retrato de Dorian Gray",
+        "year": 2009,
+        "genre": ["Drama", "Fantástico"],
+        "synopsis": "Adaptación de la novela de Oscar Wilde, sigue la historia de Dorian Gray, un joven que desea permanecer eternamente joven mientras su retrato envejece, reflejando sus actos corruptos. A medida que se entrega a una vida de hedonismo y decadencia, enfrenta las consecuencias de sus decisiones y el peso de su inmoralidad.",
+        "duration": 110,
+        "poster": "/public/img/movies/23488-0.jpg",
+        "subjectArea": ["Lengua", "Filosofía"],
+        "areaThemes": [
+            "Corrupción moral",
+            "Hedonismo",
+            "Destrucción por la vanidad"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Bastardos sin gloria",
+        "year": 2009,
+        "genre": ["Drama", "Guerra"],
+        "synopsis": "Durante la Segunda Guerra Mundial, un grupo de soldados judíos liderados por el teniente Aldo Raine ejecuta una misión para eliminar nazis en la Francia ocupada. Paralelamente, una joven busca venganza por la muerte de su familia a manos de los alemanes, mientras se forja una resistencia clandestina que desafía el régimen nazi.",
+        "duration": 153,
+        "poster": "/public/img/movies/881d87e9fa672b894170d01e48cced34.jpg",
+        "subjectArea": ["Historia"],
+        "areaThemes": [
+            "Segunda Guerra Mundial",
+            "Justicia y represalia",
+            "Lucha contra el totalitarismo"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Whiplash",
+        "year": 2014,
+        "genre": ["Drama", "Música"],
+        "synopsis": "Un joven baterista ambicioso ingresa a un conservatorio de élite y queda bajo la tutela de un maestro extremadamente exigente y abusivo. Mientras lucha por alcanzar la perfección en su arte, se enfrenta a los límites de su resistencia física y mental, cuestionando si el sacrificio extremo vale el precio del éxito.",
+        "duration": 103,
+        "poster": "/public/img/movies/276ffb88c0b5e5d666042417d34c54d3.jpg",
+        "subjectArea": ["Psicología"],
+        "areaThemes": [
+            "Perfeccionismo",
+            "Disciplina",
+            "Presión psicológica"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "El pianista",
+        "year": 2002,
+        "genre": ["Drama", "Biografía"],
+        "synopsis": "Basada en la historia real de Wladyslaw Szpilman, un pianista polaco-judío que lucha por sobrevivir durante la ocupación nazi en Varsovia. A través de su música, Szpilman enfrenta la brutalidad del régimen nazi, mientras experimenta la pérdida, la desesperación y la soledad.",
+        "duration": 150,
+        "poster": "/public/img/movies/4af72e4944fde4c07c11062008dc9712.jpg",
+        "subjectArea": ["Historia"],
+        "areaThemes": [
+            "Holocausto",
+            "Resistencia",
+            "Supervivencia en tiempos de guerra"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "genre": ["Crimen", "Drama"],
+        "synopsis": "Historias entrelazadas de crimen y redención en Los Ángeles, centradas en gángsters, un boxeador y un misterioso maletín. La narrativa no lineal explora las decisiones que definen el destino de los personajes, mientras se enfrentan a dilemas morales y consecuencias imprevistas en un mundo caótico y violento.",
+        "duration": 153,
+        "poster": "/public/img/movies/3113298029d9f2807406ff4726db4e52.jpg",
+        "subjectArea": ["Filosofía"],
+        "areaThemes": ["Redención", "Moralidad", "Causalidad"]
+    },
+    {
+        "id": 41,
+        "title": "El show de Truman",
+        "year": 1998,
+        "genre": ["Drama", "Ciencia-ficción"],
+        "synopsis": "Truman Burbank vive una vida aparentemente normal, hasta que descubre que ha sido el protagonista de un programa de televisión durante toda su existencia. Al enfrentar la verdad, empieza a cuestionar la autenticidad de su mundo y la libertad de sus decisiones, lo que lo lleva a una lucha por escapar de una realidad diseñada para él.",
+        "duration": 103,
+        "poster": "/public/img/movies/El_show_de_Truman-696629028-large.jpg",
+        "subjectArea": ["Filosofía"],
+        "areaThemes": ["Realidad vs ficción", "Libre albedrío", "Control social", "Ética"]
+    },
+    {
+        "id": 42,
+        "title": "El silencio de los inocentes",
+        "year": 1991,
+        "genre": ["Thriller", "Crimen"],
+        "synopsis": "Una joven y ambiciosa agente del FBI recurre a un brillante pero peligroso psicópata, el Dr. Hannibal Lecter, para obtener información crucial que la ayude a capturar a un asesino serial conocido como Buffalo Bill. Mientras se adentra en un tenso juego psicológico con Lecter, debe enfrentar sus propios miedos y límites morales, en una carrera contra el tiempo para salvar a la próxima víctima del asesino.",
+        "duration": 118,
+        "poster": "/public/img/movies/el-silencio-de-los-inocentes.jpg",
+        "subjectArea": ["Psicología"],
+        "areaThemes": ["Psicopatía", "Moralidad", "Manipulación"]
+    },
+    {
+        "id": 43,
+        "title": "Jurassic Park",
+        "year": 1993,
+        "genre": ["Ciencia-ficción", "Aventura"],
+        "synopsis": "Un parque temático revolucionario, poblado por dinosaurios clonados mediante ingeniería genética, se convierte en un caos cuando las criaturas escapan de su confinamiento. Mientras los visitantes luchan por sobrevivir, la película explora los límites del poder humano, los peligros de manipular la naturaleza y las consecuencias de jugar con fuerzas que no se pueden controlar.",
+        "duration": 121,
+        "poster": "/public/img/movies/bc57d991e93f53fae5f62335c5fdf422.jpg",
+        "subjectArea": ["Biología", "Filosofía"],
+        "areaThemes": ["Bioética", "Control humano sobre la naturaleza", "Evolución"]
+    },
+    {
+        "id": 44,
+        "title": "Avatar",
+        "year": 2009,
+        "genre": ["Ciencia-ficción", "Aventura"],
+        "synopsis": "Un exmarine parapléjico es enviado al planeta Pandora para ayudar a explotar sus recursos naturales. A través de un cuerpo avatar, se infiltra entre los Na'vi, los nativos del planeta, pero pronto enfrenta un dilema ético al cuestionar la colonización, la destrucción ambiental y su papel en un conflicto que pone en peligro la armonía de Pandora.",
+        "duration": 162,
+        "poster": "/public/img/movies/8b2fa6fb94810cd0d335b479896f7fc8.jpg",
+        "subjectArea": ["Filosofía", "Biología"],
+        "areaThemes": ["Conservación ambiental", "Ética de la colonización", "Choque cultural"]
+    },
+    {
+        "id": 45,
+        "title": "El lobo de Wall Street",
+        "year": 2013,
+        "genre": ["Biografía", "Comedia", "Drama"],
+        "synopsis": "Jordan Belfort, un ambicioso corredor de bolsa, asciende rápidamente en Wall Street utilizando prácticas fraudulentas y construyendo un imperio basado en el engaño. Mientras disfruta de una vida de excesos y lujos, su mundo comienza a desmoronarse, mostrando las devastadoras consecuencias personales y sociales de la corrupción financiera.",
+        "duration": 180,
+        "poster": "/public/img/movies/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
+        "subjectArea": ["Psicología"],
+        "areaThemes": ["Corrupción", "Avaricia", "Consecuencias del poder"]
+    }
+]

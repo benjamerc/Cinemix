@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", serif;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003366;
+  padding: 3%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.main-content {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7em;
+}
+
+.body-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cmix-image {
+  width: 30%;
+}
+
+.cmix-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.description-text {
+  flex: 1;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.description-text p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  color: #003366;
+}
+
+.link-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #003366;
+  padding: 1.5em;
+  border-radius: 2.5em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em;
+}
+
+.action-link:hover {
+  transform: scale(0.95);
+  background-color: #004386;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.2);
+}
+
+.action-link i {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.action-link h2 {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+  }
+
+  .image-container img {
+    object-fit: cover;
+  }
+
+  .main-content {
+    gap: 3em;
+  }
+
+  .body-content {
+    padding: 0.5em;
+  }
+
+  .cmix-image {
+    width: 60%;
+  }
+
+  .description-text {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .description-text p {
+    font-size: 20px;
+  }
+
+  .link-container {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .action-link {
+    padding: 1.3em;
+    gap: 10px;
+    border-radius: 2em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.2);
+  }
+
+  .action-link i {
+    font-size: 40px;
+  }
+
+  .action-link h2 {
+    font-size: 25px;
+  }
+}

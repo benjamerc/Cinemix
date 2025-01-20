@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Películas | Cinemix</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/movies.css">
+  <link rel="stylesheet" href="/public/css/filter-menu.css">
+  <link rel="icon" type="image/icon" href="/public/img/brand/cmix3.png">
+  
+  <!-- Font Awesome - Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Mulish - Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <nav class="menu">
+      <div class="logo-menu">
+        <a href="/" title="Home"><img src="/public/img/brand/cmix2.png" alt="Logo Cinemix"></a>
+      </div>
+      <div class="menu-container">
+        <div class="filter-menu" id="filter-menu-option">
+          <i class="fa-solid fa-chalkboard-user" title="Filtrar por materia" aria-label="Filtrar por materia"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="filter-menu-background">
+      <div class="filter-menu-content">
+        <div class="filter-menu-content-title">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <h2>Filtrar por materia</h2>
+        </div>
+        <div class="filter-options">
+          <a href="/movies?subjectArea=historia" class="filter-option-area" data-value="Historia">Historia</a>
+          <a href="/movies?subjectArea=filosofía" class="filter-option-area" data-value="Filosofía">Filosofía</a>
+          <a href="/movies?subjectArea=lengua" class="filter-option-area" data-value="Lenguaje">Lengua</a>
+          <a href="/movies?subjectArea=matemáticas" class="filter-option-area" data-value="Matemáticas">Matemáticas</a>
+          <a href="/movies?subjectArea=fisicoquímica" class="filter-option-area" data-value="Física">Fisicoquímica</a>
+          <a href="/movies?subjectArea=biología" class="filter-option-area" data-value="Biología">Biología</a>
+          <a href="/movies?subjectArea=psicología" class="filter-option-area" data-value="Psicología">Psicología</a>
+          <a href="/movies?subjectArea=tecnología" class="filter-option-area" data-value="Tecnología">Tecnología</a>
+          <div class="extra-buttons">
+            <a href="/movies" class="view-all" aria-label="Ver todas las películas" title="Ver todas las películas">Ver todas</a>
+            <button class="close-button" id="close-button" title="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="section-name">
+        <h1><%= subjectArea ? subjectArea.charAt(0).toUpperCase() + subjectArea.slice(1) : 'Películas' %></h1>
+      </div>
+      <section class="movies">
+        <% if (filteredMovies && filteredMovies.length > 0) { %>
+          <% filteredMovies.forEach(movie => { %>
+            <article class="movie">
+              <a href="/movies/<%= movie.id %>"><img src="<%= movie.poster %>" alt="<%= movie.title %>" title="<%= movie.title %>"></a>
+            </article>
+          <% }) %>
+        <% } else { %>
+          <p>No se encontraron películas para el área seleccionada.</p>
+        <% } %>
+      </section>
+    </div>
+  </main>
+  <script src="/public/js/filter-menu.js"></script>
+</body>
+</html>
